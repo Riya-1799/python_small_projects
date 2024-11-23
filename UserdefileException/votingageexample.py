@@ -17,8 +17,7 @@ class person:
             self.get_minior_age()
         except MiniorException:
             print(f"{self.name} is not an adult, cannot be vote")
-        finally:
-            pass
+
 
 # No exception
 person("Bhavin", 17).display()
